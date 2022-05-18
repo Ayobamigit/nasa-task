@@ -10,7 +10,8 @@ module.exports = {
     colors: {
       ...colors,
       'white': '#ffffff',
-      'default-font':'red',
+      'default-font':'#FFB703',
+      'primary-font':'#8ECAE6',
     },
     extend: {},
   },
