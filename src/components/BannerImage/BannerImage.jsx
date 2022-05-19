@@ -1,14 +1,12 @@
-import React, { useContext } from 'react'
+import React from 'react'
 
-const BannerImage = ({props}) => {
-  const {image} = props
+const BannerImage = (props) => {
+  const {image, className} = props
   return (
-    // <div>
-        image ?
-        <img src={image.url} alt="img" className='w-full' />
-        :
-        null
-    // </div>
+      image ?
+      <img src={image} alt="img" className={className} />
+      :
+      null
   )
 }
 

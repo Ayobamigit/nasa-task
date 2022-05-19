@@ -8,3 +8,13 @@ body{
   background-color: #000;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+
+ul{
+  display: block;
+  list-style-type: disc !important;
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  padding-inline-start: 40px !important;
+}

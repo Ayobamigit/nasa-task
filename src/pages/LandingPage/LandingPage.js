@@ -56,7 +56,7 @@ const LandingPage = () => {
       state
     }}>  
         <Header />
-        <BannerImage image={state.imageInfo} />
+        <BannerImage image={state.imageInfo ? state.imageInfo.url : ''} className='w-full' />
         <MoviesList />
     
     </LandingPageContext.Provider>

@@ -11,6 +11,7 @@ module.exports = {
       ...colors,
       'white': '#ffffff',
       'default-font':'#FFB703',
+      'link-font':'#551A8B',
       'primary-font':'#8ECAE6',
     },
     extend: {},
