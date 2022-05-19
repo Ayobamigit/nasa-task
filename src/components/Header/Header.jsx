@@ -2,12 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='text-center py-2.5'>
-        <h4 className='text-primary-font text-xl font-bold'> 
+    <header className='text-center py-2.5'>
+        <h1 className='text-primary-font text-xl font-bold'> 
             <span className='text-default-font'>NASA: </span>Picture of the Day
-        </h4>
-        <h4 className='text-primary-font text-xl font-bold'>Wednesday, May 18, 2022</h4>
-    </div>
+        </h1>
+        <h2 className='text-primary-font text-xl font-bold'>Wednesday, May 18, 2022</h2>
+    </header>
   )
 }
 

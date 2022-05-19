@@ -1,0 +1,17 @@
+.movie-card{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.movie-card :hover{
+    cursor: pointer;
+
+    h1,h4,p{
+        text-decoration: underline;
+        text-decoration-color: #FFB703;
+    }
+}
+
+  
