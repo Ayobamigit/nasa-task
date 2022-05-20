@@ -12,7 +12,7 @@ const Header = () => {
         <h1 className='text-primary-font text-xl font-bold'> 
             <span className='text-default-font'>NASA: </span>Picture of the Day
         </h1>
-        <h2 className='text-primary-font text-xl font-bold'>{date ? moment(date).format('dddd, MMMM Do, YYYY') : 'Friday, May 20, 2022'}</h2>
+        <h2 className='text-primary-font text-xl font-bold'>{date ? moment(date).format('dddd, MMMM D, YYYY') : 'Friday, May 20, 2022'}</h2>
     </header>
   )
 }
