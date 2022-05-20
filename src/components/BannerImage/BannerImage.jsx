@@ -1,4 +1,5 @@
 import React from 'react'
+import Dummy from '../../assets/img/dummycover.png'
 
 const BannerImage = (props) => {
   const {image, className} = props
@@ -6,7 +7,8 @@ const BannerImage = (props) => {
       image ?
       <img src={image} alt="img" className={className} />
       :
-      null
+      <img src={Dummy} alt="img" className={className} />
+
   )
 }
 

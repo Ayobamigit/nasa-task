@@ -5,7 +5,7 @@ import Moviecard from '../MovieCard/Moviecard'
 const MoviesList = () => {
     const {state:{movieList}} = useContext(LandingPageContext)
   return (
-    <div className='px-5 pt-5 pb-10 grid grid-cols-5 gap-5'>
+    <div className='px-5 pt-5 pb-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5'>
         {
             movieList?
             movieList.map((movie, i)=>{

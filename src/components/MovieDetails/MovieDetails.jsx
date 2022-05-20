@@ -5,7 +5,7 @@ import MovieInfo from './MovieInfo'
 const MovieDetails = ({movie}) => {
   return (
     <>
-        <BannerImage image={`${process.env.REACT_APP_IMDB_IMAGE_URL}${movie.poster_path}`}/>
+        <BannerImage image={movie.poster_path ? `${process.env.REACT_APP_IMDB_IMAGE_URL}${movie.poster_path}` : null}/>
         <MovieInfo info={movie} />
     </>
   )
